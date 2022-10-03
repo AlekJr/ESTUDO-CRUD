@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blazor</title>
+</head>
+
+<body>
+  <h1>Tutorial Blazor</h1>
+  <hr>
+  <p>List&lt;T&gt;: Representa uma lista fortemente tipada de objetos que podem ser acessados por índice. Fornece métodos para pesquisar, classificar e manipular listas.</p>
+  <br>
+  <p>For: No caso do for usamos para fazer um contador a cada click o contador vai adicionando um a mais.</p>
+  <br>
+  <p>Foreach: A instrução foreach executa uma instrução ou um bloco de instruções para cada elemento em uma instância. Um desses exemplo é o deletar item.</p>
+  <br>
+  <p>Lista não ordenada: representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes.
+  <p>exemplos:</p>
+  <ul>
+    <li>Primeiro time</li>
+    <li>Segundo time</li>
+    <li>Terceiro time</li>
+  </ul>
+  <br>
+  <p>Lista Ordenada: criamos tópicos de textos para uma melhor exemplificação de um determinado assunto. São recursos extremamente usados, inclusive quando nem imaginamos que ele esta sendo usado, como no caso de menus.</p>
+  <p>Exemplos:</p>
+  <ol>
+    <li>São Paulo</li>
+    <li>Flamengo</li>
+    <li>Coritiba</li>
+    <li>Santos</li>
+  </ol>
+  <br>
+  <p>Tabelas: faz parte do conjunto de elementos da linguagem de marcação e é utilizado para exibir dados de maneira tabular e estruturada.</p>
+  <p>exemplo:</p>
+  <table border="5">
+    <tr>
+      <th>Time</th>
+      <th>Estado</th>
+      <th>Saldo de gols</th>
+    </tr>
+    <tr>
+      <td>Santos</td>
+      <td>SP</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Flamengo</td>
+      <td>RJ</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Atlético Mineiro</td>
+      <td>BH</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>São Bento</td>
+      <td>SP</td>
+      <td>3</td>
+    </tr>
+  </table>
+  <br>
+  <p>Listar Objetos: é usado uma List&lt;categoria&gt; que pega do repositorio e gera uma nova lista.</p>
+  <br>
+  <p>Deletar objetos: Usando a mesma List&lt;categoria&gt; que agora pega um ID do repositorio chamado delete e com isso ele deleta um objeto.</p>
+  <br>
+  <p>Cadastrar objetos: Criando uma new categoria no irepository&lt;categoria&gt e depois criando uma task que adiciona no repositorio e com isso gera um novo cadastro.</p>
+  <br>
+  <p>Editar objetos: usando a task edit no irepository&lt;categoria&gt e depois usando .update(categoria) no repositorio acaba possibilitando o usuario de editar os objetos já criados.try catch serve para que, em um dado momento em que um código possa gerar um erro inesperado, o programador consiga manipular as possibilidades e exceções. Dessa forma, através do Try ele irá tentar executar o código, caso não ocorra nenhum erro, o programa seguirá o seu fluxo normal.</p>
+  <br>
+  <p>Formulario: Criando um input para que o usuario possa prencher o Formulario e depois criando um botao para poder salvar as informações.</p>
+  <br>
+  <p>Injeção de indenpendencia: permite uma Injeção de indenpendencia do lado de fora de uma classe.</p>
+</body>
+<style>
+  body {
+    font-size: 20px;
+    font-family: Arial;
+    margin: 0px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
+
+  td,
+  th {
+    padding: .7em;
+    margin: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  th {
+    background-color: #EEE;
+  }
+
+  td {
+    font-weight: bold;
+    background-color: #EEE;
+  }
+</style>
+
+</html>
